@@ -1,0 +1,22 @@
+body{
+    background-image:  url("../images/image1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: rgb(151, 149, 149);
+    font-size: 25px;
+    width: 200px;
+    height: 50px; 
+    text-align: center;
+}
+h2{
+    background: purple;
+    
+    padding: 5px;
+}

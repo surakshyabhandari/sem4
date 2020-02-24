@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classwork</title>
+    <style>
+        #a{
+            width: 400px;
+            height: 500px;
+            background: rgb(207, 207, 208);
+            padding: 4px;
+        }
+        h1{
+            background: red;
+            border-radius: 0px 100px 0px 0px;
+            max-width: 210px;
+            height: 50px;
+            padding: 5px;
+        }
+        input{
+            margin: 5px;
+            padding:3px;
+        }
+        table tr td input{
+            border-radius: 10px;
+        }
+        button{
+            background: black;
+            color: white;
+            width: 70px;
+            height: 50px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 100px;
+            border:none;
+        }
+        button:hover{
+            background: white;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+   
+        <h1>Test Form</h1>
+   
+    <div id="a">
+         
+        <form action="/form/" method="GET">
+            <table>
+                <tr>
+                    <td><label for="firstname">Name: </label></td>
+                    <td> <input type="text" name="firstname" id="firstname"/></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td><input type="text" name="lastname" id="lastname"/></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td><input type="password" name="word" id="pass"/></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"/><br/></td>
+                </tr>
+                <tr>
+                    <td> <label for="numer">Age</label></td>
+                    <td><input type="age" name="age" id="age" min="12" max="34"/></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" name="gender"/> Male</td>
+                    <td><input type="radio" name="gender"/> Female</td>
+                    <td><input type="radio" name="gender"/> Other</td>
+                </tr>
+                
+                
+            </table>
+            <button type="reset"> reset</button>
+        <button type="submit" style="margin-left: 02px;">Submit</button>
+        </form>
+    </div>
+        
+    
+</body>
+</html>
